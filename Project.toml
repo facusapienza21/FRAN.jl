@@ -1,0 +1,11 @@
+name = "FRAN"
+uuid = "667473bb-84eb-4370-b86b-243f49424f98"
+authors = ["Facundo Sapienza <fsapienza@berkeley.edu>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+NamedTuples = "73a701b4-84e1-5df0-88ff-1968ee2ee8dc"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
+TuringGLM = "0004c1f4-53c5-4d43-a221-a1dac6cf6b74"
