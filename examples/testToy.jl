@@ -1,3 +1,6 @@
+using Pkg
+Pkg.activate(".")
+
 include("../src/sample/Toy.jl")
 
 # Generate a set of data from the posterior we want to estimate.
@@ -15,4 +18,4 @@ model = DensityModel(density)
 spl = ToySampler([0.0, 0.0])
 
 # Sample from the posterior.
-chain = sample(model, spl, 1000)
+chain = sample(model, spl, 1_000; param_names=["μ", "σ"])
